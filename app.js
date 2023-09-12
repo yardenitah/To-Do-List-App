@@ -13,7 +13,7 @@ app.set("view engine", "ejs");
 
 // Set up default mongoose connection
 mongoose.connect(
-  "mongodb+srv://admin-yarden:yarden1169@cluster0.7batslt.mongodb.net/todolistDB"
+  "mongodb+srv://admin-yarden:yarden1169@cluster0.z9ikx3b.mongodb.net/todolistDB"
 );
 
 // Mongoose Schema for individual to-do list items

@@ -5,6 +5,13 @@ const _ = require("lodash");
 
 const app = express();
 
+app.use(cors({
+  "origin": "https://to-do-list-4t7x.onrender.com/",
+  "methods": "GET,PUT,PATCH,POST,DELETE",
+  "optionsSuccessStatus": 204,
+  "credentials": true
+}));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static("public"));

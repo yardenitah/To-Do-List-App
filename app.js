@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const _ = require("lodash");
 
 const app = express();
+const cors = require("cors");
 
 app.use(cors({
   "origin": "https://to-do-list-4t7x.onrender.com/",
